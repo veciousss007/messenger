@@ -18,7 +18,5 @@ class PhoneVM(
     class Effect
 
     override fun getDefaultState() = State()
-    override fun processInput(input: Input) {
-        TODO("Not yet implemented")
-    }
+    override fun processInput(input: Input) {  }
 }

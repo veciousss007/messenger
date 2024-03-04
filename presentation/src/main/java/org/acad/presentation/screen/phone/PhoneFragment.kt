@@ -14,7 +14,7 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
  */
 class PhoneFragment : BaseFragment<FragmentPhoneBinding>(FragmentPhoneBinding::inflate) {
 
-    private lateinit var viewmodel: PhoneVM
+    private val viewmodel: PhoneVM by viewModel()
 
     @SuppressLint("CheckResult")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

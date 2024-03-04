@@ -1,4 +1,4 @@
-package org.acad.messenger
+package org.acad.presentation.main
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
